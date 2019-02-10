@@ -28,13 +28,9 @@ then you are ready to go!
 -- RUN EXPERIMENT --
 --------------------
 
-cd EVAL5
-
 ./TEST-ALL.sh > outputs/OUTPUT.txt 2>&1 &
 
 ./TEST-ALL-BIG.sh > outputs/OUTPUT-BIG.txt 2>&1 &
-
-cd ..
 
 
 -------------

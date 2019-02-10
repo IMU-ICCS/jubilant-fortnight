@@ -1,7 +1,7 @@
 @echo off
 
 set TEST_ID=test
-set NUM_OF_WORKERS=100
+set NUM_OF_WORKERS=200
 set JAVA_START_DELAY=0
 set EVAL_ITER=100000
 set PREC=3
