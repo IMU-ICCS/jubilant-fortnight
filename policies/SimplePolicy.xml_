@@ -1,0 +1,20 @@
+<Policy xmlns="urn:oasis:names:tc:xacml:3.0:core:schema:wd-17"  PolicyId="PaaSword" 
+	RuleCombiningAlgId="urn:oasis:names:tc:xacml:1.0:rule-combining-algorithm:deny-overrides" 
+	Version="1.0">
+   <Target></Target>
+   <Rule Effect="Permit" RuleId="TestRule">
+      <Target>
+         <AnyOf>
+            <AllOf>
+               <Match MatchId="urn:oasis:names:tc:xacml:1.0:function:string-equal">
+                  <AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-value-000000</AttributeValue>
+                  <AttributeDesignator AttributeId="urn:my-test:attributes:attr-000000" 
+	                  Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" 
+	                  DataType="http://www.w3.org/2001/XMLSchema#string" 
+	                  MustBePresent="true"></AttributeDesignator>
+               </Match>
+            </AllOf>
+         </AnyOf>
+      </Target>
+  </Rule>
+</Policy> 

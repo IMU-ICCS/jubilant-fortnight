@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Policy xmlns="urn:oasis:names:tc:xacml:3.0:core:schema:wd-17" 
+  PolicyId="Permit_ALL" 
+  RuleCombiningAlgId="urn:oasis:names:tc:xacml:1.0:rule-combining-algorithm:deny-overrides" 
+  Version="1.0">
+	<Description>My Policy 1</Description>
+	<Target>
+	</Target>
+	<Rule Effect="Permit" RuleId="Rule-1" />
+</Policy>
