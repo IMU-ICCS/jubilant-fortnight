@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Policy xmlns="urn:oasis:names:tc:xacml:3.0:core:schema:wd-17" 
+  PolicyId="POL-10-test-policy-07"
+  RuleCombiningAlgId="urn:oasis:names:tc:xacml:1.0:rule-combining-algorithm:deny-overrides" 
+  Version="1.0">
+	<Description>Policy with 10 rules with 10 attributes</Description>
+	<Target>
+	</Target>
+
+	<Rule Effect="Permit" RuleId="Rule-000">
+		<Condition>
+			<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:and">
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070000" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070000"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070001" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070001"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070002" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070002"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070003" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070003"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070004" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070004"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070005" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070005"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070006" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070006"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070007" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070007"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070008" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070008"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070009" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070009"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+			</Apply>
+		</Condition>
+	</Rule>
+
+	<Rule Effect="Permit" RuleId="Rule-100">
+		<Condition>
+			<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:and">
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070100" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070100"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070101" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070101"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070102" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070102"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070103" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070103"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070104" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070104"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070105" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070105"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070106" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070106"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070107" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070107"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070108" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070108"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070109" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070109"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+			</Apply>
+		</Condition>
+	</Rule>
+
+	<Rule Effect="Permit" RuleId="Rule-200">
+		<Condition>
+			<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:and">
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070200" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070200"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070201" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070201"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070202" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070202"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070203" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070203"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070204" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070204"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070205" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070205"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070206" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070206"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070207" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070207"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070208" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070208"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070209" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070209"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+			</Apply>
+		</Condition>
+	</Rule>
+
+	<Rule Effect="Permit" RuleId="Rule-300">
+		<Condition>
+			<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:and">
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070300" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070300"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070301" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070301"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070302" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070302"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070303" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070303"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070304" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070304"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070305" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070305"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070306" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070306"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070307" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070307"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070308" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070308"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070309" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070309"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+			</Apply>
+		</Condition>
+	</Rule>
+
+	<Rule Effect="Permit" RuleId="Rule-400">
+		<Condition>
+			<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:and">
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070400" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070400"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070401" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070401"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070402" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070402"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070403" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070403"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070404" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070404"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070405" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070405"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070406" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070406"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070407" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070407"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070408" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070408"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070409" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070409"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+			</Apply>
+		</Condition>
+	</Rule>
+
+	<Rule Effect="Permit" RuleId="Rule-500">
+		<Condition>
+			<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:and">
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070500" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070500"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070501" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070501"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070502" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070502"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070503" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070503"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070504" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070504"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070505" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070505"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070506" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070506"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070507" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070507"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070508" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070508"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070509" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070509"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+			</Apply>
+		</Condition>
+	</Rule>
+
+	<Rule Effect="Permit" RuleId="Rule-600">
+		<Condition>
+			<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:and">
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070600" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070600"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070601" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070601"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070602" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070602"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070603" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070603"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070604" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070604"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070605" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070605"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070606" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070606"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070607" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070607"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070608" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070608"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070609" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070609"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+			</Apply>
+		</Condition>
+	</Rule>
+
+	<Rule Effect="Permit" RuleId="Rule-700">
+		<Condition>
+			<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:and">
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070700" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070700"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070701" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070701"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070702" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070702"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070703" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070703"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070704" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070704"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070705" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070705"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070706" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070706"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070707" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070707"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070708" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070708"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070709" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070709"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+			</Apply>
+		</Condition>
+	</Rule>
+
+	<Rule Effect="Permit" RuleId="Rule-800">
+		<Condition>
+			<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:and">
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070800" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070800"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070801" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070801"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070802" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070802"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070803" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070803"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070804" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070804"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070805" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070805"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070806" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070806"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070807" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070807"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070808" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070808"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070809" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070809"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+			</Apply>
+		</Condition>
+	</Rule>
+
+	<Rule Effect="Permit" RuleId="Rule-900">
+		<Condition>
+			<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:and">
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070900" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070900"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070901" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070901"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070902" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070902"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070903" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070903"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070904" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070904"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070905" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070905"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070906" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070906"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070907" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070907"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070908" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070908"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+				<Apply FunctionId="urn:oasis:names:tc:xacml:1.0:function:any-of-any">
+					<Function FunctionId="urn:oasis:names:tc:xacml:1.0:function:string-equal"/>
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-req-070909" DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+					<AttributeDesignator AttributeId="urn:my-test:attributes:attr-db-070909"  DataType="http://www.w3.org/2001/XMLSchema#string" Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject" MustBePresent="true" />
+				</Apply>
+			</Apply>
+		</Condition>
+
+	</Rule>
+</Policy>
