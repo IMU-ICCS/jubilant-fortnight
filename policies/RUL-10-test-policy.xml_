@@ -3,7 +3,7 @@
   PolicyId="CE-10-test-policy"
   RuleCombiningAlgId="urn:oasis:names:tc:xacml:1.0:rule-combining-algorithm:deny-overrides" 
   Version="1.0">
-	<Description>Policy with 1 rule with 10 attributes</Description>
+	<Description>Policy with 10 rules with 10 attributes</Description>
 	<Target>
 	</Target>
 
