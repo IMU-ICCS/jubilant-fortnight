@@ -5,7 +5,7 @@ set NUM_OF_WORKERS=1
 set JAVA_START_DELAY=0
 set EVAL_ITER=100000
 set PREC=3
-set ACTIVE_DIR=policies
+set ACTIVE_DIR=policies\POL-10-test-policies
 set REQ_FILE=.\requests\SimpleRequest.xml
 set RESP_FILE=.\Response.xml
 
