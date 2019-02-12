@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Request xmlns="urn:oasis:names:tc:xacml:3.0:core:schema:wd-17"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xacml:3.0:core:schema:wd-17 http://docs.oasis-open.org/xacml/3.0/xacml-core-v3-schema-wd-17.xsd"
+  CombinedDecision="false"
+  ReturnPolicyIdList="false">
+
+	<Attributes Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject">
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000000" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000000</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000001" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000001</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000002" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000002</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000003" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000003</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000004" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000004</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000005" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000005</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000006" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000006</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000007" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000007</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000008" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000008</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000009" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000009</AttributeValue>
+		</Attribute>
+	</Attributes>
+</Request>

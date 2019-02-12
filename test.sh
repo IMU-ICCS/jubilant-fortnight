@@ -7,12 +7,14 @@ EVAL_ITER=100000
 PREC=3
 ACTIVE_DIR=policies/POL-10-test-policies
 #ACTIVE_DIR=policies/POL-10-test-policies
-REQ_FILE=./requests/SimpleRequest.xml
+#REQ_FILE=./requests/SimpleRequest.xml
+#REQ_FILE=./requests/CE-10-xacml-request.xml
+#REQ_FILE=./requests/RUL-10-xacml-request.xml
+REQ_FILE=./requests/POL-10-xacml-request.xml
 RESP_FILE=./Response.xml
 
 date
 java -classpath "target/classes:target/dependency/*" my.test.balana.App -D$JAVA_START_DELAY -R$EVAL_ITER -W$NUM_OF_WORKERS -c$PREC -I$TEST_ID -P$ACTIVE_DIR "$REQ_FILE" "$RESP_FILE" 
-rem 2>nul
 
 echo -------------------------------------------------------------------
 date

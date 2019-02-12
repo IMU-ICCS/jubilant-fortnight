@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Request xmlns="urn:oasis:names:tc:xacml:3.0:core:schema:wd-17"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:oasis:names:tc:xacml:3.0:core:schema:wd-17 http://docs.oasis-open.org/xacml/3.0/xacml-core-v3-schema-wd-17.xsd"
+  CombinedDecision="false"
+  ReturnPolicyIdList="false">
+
+	<Attributes Category="urn:oasis:names:tc:xacml:1.0:subject-category:access-subject">
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000000" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000000</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000001" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000001</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000002" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000002</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000003" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000003</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000004" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000004</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000005" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000005</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000006" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000006</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000007" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000007</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000008" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000008</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000009" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000009</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000100" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000100</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000101" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000101</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000102" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000102</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000103" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000103</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000104" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000104</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000105" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000105</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000106" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000106</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000107" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000107</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000108" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000108</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000109" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000109</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000200" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000200</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000201" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000201</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000202" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000202</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000203" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000203</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000204" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000204</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000205" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000205</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000206" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000206</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000207" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000207</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000208" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000208</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000209" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000209</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000300" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000300</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000301" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000301</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000302" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000302</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000303" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000303</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000304" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000304</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000305" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000305</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000306" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000306</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000307" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000307</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000308" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000308</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000309" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000309</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000400" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000400</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000401" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000401</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000402" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000402</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000403" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000403</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000404" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000404</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000405" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000405</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000406" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000406</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000407" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000407</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000408" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000408</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000409" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000409</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000500" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000500</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000501" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000501</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000502" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000502</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000503" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000503</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000504" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000504</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000505" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000505</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000506" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000506</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000507" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000507</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000508" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000508</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000509" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000509</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000600" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000600</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000601" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000601</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000602" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000602</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000603" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000603</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000604" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000604</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000605" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000605</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000606" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000606</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000607" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000607</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000608" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000608</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000609" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000609</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000700" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000700</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000701" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000701</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000702" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000702</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000703" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000703</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000704" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000704</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000705" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000705</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000706" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000706</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000707" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000707</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000708" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000708</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000709" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000709</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000800" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000800</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000801" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000801</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000802" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000802</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000803" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000803</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000804" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000804</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000805" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000805</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000806" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000806</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000807" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000807</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000808" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000808</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000809" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000809</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000900" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000900</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000901" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000901</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000902" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000902</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000903" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000903</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000904" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000904</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000905" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000905</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000906" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000906</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000907" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000907</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000908" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000908</AttributeValue>
+		</Attribute>
+		<Attribute IncludeInResult="false" AttributeId="urn:my-test:attributes:attr-req-000909" DataType="http://www.w3.org/2001/XMLSchema#string">
+			<AttributeValue DataType="http://www.w3.org/2001/XMLSchema#string">attr-db-000909</AttributeValue>
+		</Attribute>
+	</Attributes>
+</Request>
