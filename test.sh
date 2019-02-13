@@ -18,57 +18,57 @@ java -classpath "target/classes:target/dependency/*" my.test.balana.App -D$JAVA_
 
 echo -------------------------------------------------------------------
 date
-set NUM_OF_WORKERS=10
+NUM_OF_WORKERS=10
 java -classpath "target/classes:target/dependency/*" my.test.balana.App -D$JAVA_START_DELAY -R$EVAL_ITER -W$NUM_OF_WORKERS -c$PREC -I$TEST_ID -P$ACTIVE_DIR "$REQ_FILE" "$RESP_FILE"
 
 echo -------------------------------------------------------------------
 date
-set NUM_OF_WORKERS=100
+NUM_OF_WORKERS=100
 java -classpath "target/classes:target/dependency/*" my.test.balana.App -D$JAVA_START_DELAY -R$EVAL_ITER -W$NUM_OF_WORKERS -c$PREC -I$TEST_ID -P$ACTIVE_DIR "$REQ_FILE" "$RESP_FILE"
 
 echo -------------------------------------------------------------------
 date
-set NUM_OF_WORKERS=200
+NUM_OF_WORKERS=200
 java -classpath "target/classes:target/dependency/*" my.test.balana.App -D$JAVA_START_DELAY -R$EVAL_ITER -W$NUM_OF_WORKERS -c$PREC -I$TEST_ID -P$ACTIVE_DIR "$REQ_FILE" "$RESP_FILE"
 
 echo -------------------------------------------------------------------
 date
-set NUM_OF_WORKERS=300
+NUM_OF_WORKERS=300
 java -classpath "target/classes:target/dependency/*" my.test.balana.App -D$JAVA_START_DELAY -R$EVAL_ITER -W$NUM_OF_WORKERS -c$PREC -I$TEST_ID -P$ACTIVE_DIR "$REQ_FILE" "$RESP_FILE"
 
 echo -------------------------------------------------------------------
 date
-set NUM_OF_WORKERS=400
+NUM_OF_WORKERS=400
 java -classpath "target/classes:target/dependency/*" my.test.balana.App -D$JAVA_START_DELAY -R$EVAL_ITER -W$NUM_OF_WORKERS -c$PREC -I$TEST_ID -P$ACTIVE_DIR "$REQ_FILE" "$RESP_FILE"
 
 echo -------------------------------------------------------------------
 date
-set NUM_OF_WORKERS=500
+NUM_OF_WORKERS=500
 java -classpath "target/classes:target/dependency/*" my.test.balana.App -D$JAVA_START_DELAY -R$EVAL_ITER -W$NUM_OF_WORKERS -c$PREC -I$TEST_ID -P$ACTIVE_DIR "$REQ_FILE" "$RESP_FILE"
 
 echo -------------------------------------------------------------------
 date
-set NUM_OF_WORKERS=600
+NUM_OF_WORKERS=600
 java -classpath "target/classes:target/dependency/*" my.test.balana.App -D$JAVA_START_DELAY -R$EVAL_ITER -W$NUM_OF_WORKERS -c$PREC -I$TEST_ID -P$ACTIVE_DIR "$REQ_FILE" "$RESP_FILE"
 
 echo -------------------------------------------------------------------
 date
-set NUM_OF_WORKERS=700
+NUM_OF_WORKERS=700
 java -classpath "target/classes:target/dependency/*" my.test.balana.App -D$JAVA_START_DELAY -R$EVAL_ITER -W$NUM_OF_WORKERS -c$PREC -I$TEST_ID -P$ACTIVE_DIR "$REQ_FILE" "$RESP_FILE"
 
 echo -------------------------------------------------------------------
 date
-set NUM_OF_WORKERS=800
+NUM_OF_WORKERS=800
 java -classpath "target/classes:target/dependency/*" my.test.balana.App -D$JAVA_START_DELAY -R$EVAL_ITER -W$NUM_OF_WORKERS -c$PREC -I$TEST_ID -P$ACTIVE_DIR "$REQ_FILE" "$RESP_FILE"
 
 echo -------------------------------------------------------------------
 date
-set NUM_OF_WORKERS=900
+NUM_OF_WORKERS=900
 java -classpath "target/classes:target/dependency/*" my.test.balana.App -D$JAVA_START_DELAY -R$EVAL_ITER -W$NUM_OF_WORKERS -c$PREC -I$TEST_ID -P$ACTIVE_DIR "$REQ_FILE" "$RESP_FILE"
 
 echo -------------------------------------------------------------------
 date
-set NUM_OF_WORKERS=1000
+NUM_OF_WORKERS=1000
 java -classpath "target/classes:target/dependency/*" my.test.balana.App -D$JAVA_START_DELAY -R$EVAL_ITER -W$NUM_OF_WORKERS -c$PREC -I$TEST_ID -P$ACTIVE_DIR "$REQ_FILE" "$RESP_FILE"
 
 date
